@@ -1,0 +1,6 @@
+BuildStatic
+
+AddExe test
+Source test.cc
+
+Link stdc++
