@@ -98,6 +98,7 @@ namespace stf {
 
     template<int L>
     class sout{
+    public:
         void operator<<(stf::string<L> str){
             std::cout << str.dat;
         }
